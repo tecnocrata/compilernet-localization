@@ -75,5 +75,56 @@ namespace CompilerLocalizationNet47
                 Console.ReadLine();
             }
         }
+
+        //static void Main(string[] args)
+        //{
+        //    // C# source code to compile
+        //    string sourceCode = @"
+        //    using System;
+
+        //    namespace HelloWorld
+        //    {
+        //        public class Program
+        //        {
+        //            public static void Main)
+        //            {
+        //                Console.WriteLine(""Hello, World!"");
+        //            }
+        //        }
+        //    }";
+
+        //    // Create an instance of the CSharpCodeProvider
+        //    using (CSharpCodeProvider provider = new CSharpCodeProvider())
+        //    {
+        //        // Set up the compiler parameters
+        //        CompilerParameters compilerParameters = new CompilerParameters
+        //        {
+        //            GenerateInMemory = false, // Set to true if you want to generate the assembly in memory
+        //            OutputAssembly = "HelloWorld.exe", // Output file name
+        //            GenerateExecutable = true // Set to true to generate an executable, false for a DLL
+        //        };
+
+        //        // Add any necessary references
+        //        compilerParameters.ReferencedAssemblies.Add("System.dll");
+
+        //        // Compile the source code
+        //        CompilerResults results = provider.CompileAssemblyFromSource(compilerParameters, sourceCode);
+
+        //        // Check for errors
+        //        if (results.Errors.HasErrors)
+        //        {
+        //            Console.WriteLine("Compilation failed:");
+        //            foreach (CompilerError error in results.Errors)
+        //            {
+        //                Console.WriteLine($"{error.FileName}({error.Line},{error.Column}): error {error.ErrorNumber}: {error.ErrorText}");
+        //            }
+        //        }
+        //        else
+        //        {
+        //            Console.WriteLine("Compilation succeeded.");
+        //        }
+        //    }
+        //    Console.ReadLine();
+        //}
     }
 }

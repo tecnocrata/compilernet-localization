@@ -5,6 +5,11 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompilerLocalizationNet47", "CompilerLocalizationNet47\CompilerLocalizationNet47.csproj", "{F42BACC9-DD97-41DB-AC17-FFB216500074}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4117D913-A403-44B6-B140-E187707B9EDF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
